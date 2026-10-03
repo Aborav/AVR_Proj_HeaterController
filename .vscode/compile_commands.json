@@ -1,0 +1,18 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/avr-gcc",
+      "-mmcu=atmega328p",
+      "-DF_CPU=16000000UL",
+      "-I/usr/lib/avr/include",
+      "-Os",
+      "-c",
+      "-o",
+      "main.o",
+      "main.c"
+    ],
+    "directory": "/home/aborav/Workspaces/AVR/AVR_Project_Temperature_Indicator",
+    "file": "/home/aborav/Workspaces/AVR/AVR_Project_Temperature_Indicator/main.c",
+    "output": "/home/aborav/Workspaces/AVR/AVR_Project_Temperature_Indicator/main.o"
+  }
+]
