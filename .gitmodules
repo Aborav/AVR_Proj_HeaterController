@@ -1,0 +1,3 @@
+[submodule "UsrLibs/AVR_Atmega328p_Core"]
+	path = UsrLibs/AVR_Atmega328p_Core
+	url = git@github.com:Aborav/AVR_Atmega328p_Core.git
