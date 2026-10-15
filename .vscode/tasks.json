@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "clang-tidy (whole project)",
+            "type": "shell",
+            "command": "clang-tidy",
+            "args": [
+                "-p",
+                "${workspaceFolder}/.vscode/", //compile_commands.json
+                //all c files in the project
+                "${workspaceFolder}/*.c",
+                "${workspaceFolder}/**/*.c" 
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+Checks: 'clang-diagnostic-*,clang-analyzer-*,bugprone-*,readability-*,misc-*,-readability-magic-numbers,-readability-identifier-naming,-misc-include-cleaner'
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+FormatStyle:     none
+#User:            user
+CheckOptions:
+  - key:             readability-identifier-naming.VariableCase
+    value:           lower_case

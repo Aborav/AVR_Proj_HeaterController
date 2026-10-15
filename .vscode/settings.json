@@ -9,5 +9,7 @@
     "AVR.device.frequency": 16000000,
     "AVR.programmer.type": "usbasp",
     "AVR.programmer.port": "12",
-    "AVR.programmer.rate": 115200
+    "AVR.programmer.rate": 115200,
+
+
 }
