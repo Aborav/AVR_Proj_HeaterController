@@ -1,3 +1,9 @@
 [submodule "UsrLibs/AVR_Atmega328p_Core"]
 	path = UsrLibs/AVR_Atmega328p_Core
 	url = git@github.com:Aborav/AVR_Atmega328p_Core.git
+[submodule "UsrLibs/AVR_Lib_MAX7219"]
+	path = UsrLibs/AVR_Lib_MAX7219
+	url = git@github.com:Aborav/AVR_Lib_MAX7219.git
+[submodule "UsrLibs/SevSegAPI_Lib"]
+	path = UsrLibs/SevSegAPI_Lib
+	url = git@github.com:Aborav/SevSegAPI_Lib.git
